@@ -1,0 +1,12 @@
+﻿services:
+  search.application:
+    image: search.application
+    build:
+      context: .
+      dockerfile: Search.Application/Dockerfile
+
+  search.application-1:
+    image: search.application-1
+    build:
+      context: .
+      dockerfile: Search.Application/Dockerfile
